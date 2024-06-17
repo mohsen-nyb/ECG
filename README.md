@@ -36,8 +36,8 @@ if __name__ == "__main__":
     main()
 
 
-Evaluating the Model
-Metrics are computed and saved during training, and the best model based on validation AUC score is saved in the results/ directory. The evaluation metrics include Loss, Accuracy, Precision, Recall, F1 Score, and ROC AUC.
+## Evaluating the Model
+Metrics are computed and saved during training, and the best model based on validation AUC score is saved in the model_name/ directory. The evaluation metrics include Loss, Accuracy, Precision, Recall, F1 Score, and ROC AUC.
 
 
 ## Metrics
@@ -52,10 +52,10 @@ ROC AUC
 
 
 ## Plotting Metrics
-Metrics are plotted over the number of epochs and saved as PNG files in the results/ directory.
+Metrics are plotted over the number of epochs and saved as PNG files in the model_name/ directory.
 
 ## Results
-Training and validation metrics are saved in the results/ directory and plotted for visualization. The best model is also saved in this directory.
+Training and validation metrics are saved in the model_name/ directory and plotted for visualization. The best model is also saved in this directory.
 
 
 
