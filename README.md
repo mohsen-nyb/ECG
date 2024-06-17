@@ -13,9 +13,17 @@ This project implements various deep learning architectures to encode 12-lead EC
   This model is a 1D Convolutional Neural Network (CNN) designed for classifying 12-lead ECG signals, consisting of multiple convolutional layers followed by fully connected layers, with dropout regularization applied at each layer.
   
 - **RNN**: Implemented in `models/rnn.py`
+  This model is a Recurrent Neural Network (RNN), specifically a Long Short-Term Memory (LSTM) network, designed for classifying 12-lead ECG signals. It processes the input signals through LSTM layers to capture temporal dependencies and then applies fully connected layers for classification, with dropout regularization applied at the fully connected layer.
+  
+
 - **CNN-RNN**: Implemented in `models/cnn_rnn.py`
+  This model is a combination of a 1D Convolutional Neural Network (CNN) and a Long Short-Term Memory (LSTM) layer, designed for classifying 12-lead ECG signals. It applies convolutional layers to extract features from the input signals, followed by an LSTM layer to capture temporal dependencies, with dropout regularization applied at each layer.
+  
 - **CNN with Attention RNN**: Implemented in `models/cnn_att_rnn.py`
+  This model combines a 1D Convolutional Neural Network (CNN) with a Long Short-Term Memory (LSTM) layer and an attention mechanism. It first applies convolutional layers to extract features from the input signals, then passes the output through an LSTM layer to capture temporal dependencies, and finally utilizes an attention mechanism to focus on relevant parts of the sequence for classification.
+  
 - **CNN with Transformer**: Implemented in `models/cnn_transformer.py`
+  This model combines a 1D Convolutional Neural Network (CNN) with a Transformer architecture. It first applies convolutional layers to extract features from the input signals and then processes the output through a Transformer encoder, followed by fully connected layers for classification.
 
 
 
