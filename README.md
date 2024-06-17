@@ -6,22 +6,6 @@ This project implements several deep learning architectures to classify ECG sign
 
 This project implements various deep learning architectures to encode 12-lead ECG signals and predict ECHO abnormalities. The models used include CNN, RNN, CNN-RNN, CNN with Attention mechanism, and CNN with Transformer. The repository includes training and evaluation scripts, along with utilities for data handling and metrics computation. More complex models will be added. 
 
-## Project Structure
-
-├── data/
-│ └── # Directory to store ECG datasets
-├── models/
-│ ├── cnn.py
-│ ├── rnn.py
-│ ├── cnn_rnn.py
-│ ├── cnn_att_rnn.py
-│ └── cnn_transformer.py
-├── results/
-│ └── # Directory to save training metrics and model checkpoints
-├── utils.py
-├── train.py
-├── eval.py
-└── README.md
 
 ### Model Architectures
 
