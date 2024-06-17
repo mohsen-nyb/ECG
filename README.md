@@ -10,6 +10,8 @@ This project implements various deep learning architectures to encode 12-lead EC
 ### Model Architectures
 
 - **CNN**: Implemented in `models/cnn.py`
+  This model is a 1D Convolutional Neural Network (CNN) designed for classifying 12-lead ECG signals, consisting of multiple convolutional layers followed by fully connected layers, with dropout regularization applied at each layer.
+  
 - **RNN**: Implemented in `models/rnn.py`
 - **CNN-RNN**: Implemented in `models/cnn_rnn.py`
 - **CNN with Attention RNN**: Implemented in `models/cnn_att_rnn.py`
