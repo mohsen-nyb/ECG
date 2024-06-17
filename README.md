@@ -22,19 +22,7 @@ Preparing the Dataset
 Place your 12-lead ECG data in the data/ directory. Ensure the data is preprocessed and split into training and validation sets.
 
 ## Training the Model
-You can train the model by running the train.py script. This script initializes the data loaders, model, loss function, and optimizer, and then trains the model for a specified number of epochs.
-
-python train.py
-
-Example Main Function
-The main function in the train.py script allows you to select and train different models. Here is an example:
-
-def main():
-    model = ECG_CNN1D_LSTM_att()
-    train(model=model, model_name='ECG_CNNID_Attention_LSTM', batch_size=32, num_epochs=30, lr=0.0001, seed=42)
-
-if __name__ == "__main__":
-    main()
+You can train the model by running the train.py script. This script initializes the data loaders, model, loss function, and optimizer, and then trains the model for a specified number of epochs. The main function in the train.py script allows you to select and train different models
 
 
 ## Evaluating the Model
