@@ -178,8 +178,9 @@ def main():
 
     train_data_path = '/Volumes/research/ecg_echo/echo_data/train_abnormal_ecgs/*'
     test_data_path = '/Volumes/research/ecg_echo/echo_data/test_abnormal_ecgs/*'
-    model = ECG_CNN1D_LSTM_att()
-    train(model=model, model_name='ECG_CNNID_Attention_LSTM', train_data_path=train_data_path, test_data_path=test_data_path, batch_size=32, num_epochs=30, lr=0.0001, seed=42)
+    seed=42
+    model = ECG_CNN1D_LSTM_att(seed=seed)
+    train(model=model, model_name='ECG_CNNID_Attention_LSTM', train_data_path=train_data_path, test_data_path=test_data_path, batch_size=32, num_epochs=30, lr=0.0001, seed=seed)
 
 
 if __name__ == "__main__":
