@@ -2,7 +2,7 @@
 This project implements several deep learning architectures to classify ECG signals using a combination of Convolutional Neural Networks (CNN), Transformers, and Recurrent Neural Networks (RNN) with attention mechanism. The model is designed to handle 12-lead ECG signals and make binary predictions.
 
 
-# ECG Signal Classification for ECHO Abnormality Prediction
+# ECG Signal Classification for Abnormality Prediction
 
 This project implements various deep learning architectures to encode 12-lead ECG signals and predict ECHO abnormalities. The models used include CNN, RNN, CNN-RNN, CNN with Attention mechanism, and CNN with Transformer. The repository includes training and evaluation scripts, along with utilities for data handling and metrics computation. More complex models will be added. 
 
